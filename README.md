@@ -1,2 +1,2 @@
 # Machine Learning
-I collect various Jupyter notebooks of ML projects I worked on.
+I collect various Jupyter notebooks of ML projects I worked on in this repository.
