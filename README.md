@@ -6,4 +6,4 @@ This is a very small data set (208 rows) which is also wide (60 predictor variab
 
 ### Support Vector Identification
 When I was learning the theory of Support Vector Machines (SVM) from the awesome book titled 'An Introduction to Statistical Learning with Applications in R' of James, Witten, Hastie and Tibshirani (which is made freely available by the authors, hint: just google it), I had to disagree with the authors on a simple case of counting.
-In one of the figures (the bottom right one on page 348), the authors say that there are eight support vectors and I counted nine! (I am including the figure here for quick reference). As a result, I simulated some data, fitted SVMs, and identified the support vectors to check my undestanding of the concept.
+In one of the figures (the bottom right one on page 348), the authors say that there are eight support vectors and I counted nine! (I am including the figure here for quick reference). As a result, I simulated some data, fitted SVMs, and identified the support vectors to check my understanding of the concept.
