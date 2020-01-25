@@ -7,6 +7,9 @@ I tend to use the year we are in (2019 in this case) as the random number genera
 I got perfect recall! If I had worked on it in a different year, the result would have been drastically different. Therefore, I averaged the performance of 
 my models using different seeds in order to reduce the variance.
 
+### Case Study -- Forest Cover Type
+This is a dataset containing half a million instances on 54 predictor variables. The objective is to predict forest cover type from cartographic variables.
+
 ### Dimension Reduction -- Fashion-MNIST
 Fashion-MNIST is a dataset which contains 70000 everyday clothing items/accesories represented as a grayscale 28x28 image; hence, each instance lives in a 784 dimensional
 space. We use various dimension reduction algorithms such as PCA, NMF, t-SNE, UMAP, and Isomap in order to reduce the dimension to 2 and visualize the dataset as a scatterplot 
