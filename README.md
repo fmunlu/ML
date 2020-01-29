@@ -12,7 +12,7 @@ This is a dataset containing half a million instances on 54 predictor variables.
 classes) from cartographic variables.
 
 ### Case Study 02b -- Forest Cover Type (Feature Importances and Selection)
-We use the Forest Cover Type dataset to investigate feature importances and reduce the number of feature without impacting accuracy thereby.
+We use the Forest Cover Type dataset to investigate feature importances and reduce the number of features without impacting accuracy thereby.
 
 ### Dimension Reduction 1 -- Fashion-MNIST
 Fashion-MNIST is a dataset which contains 70000 everyday clothing items/accesories represented as a grayscale 28x28 image; hence, each instance lives in a 784 dimensional
