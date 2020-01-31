@@ -14,6 +14,11 @@ classes) from cartographic variables.
 ### Case Study 02b -- Forest Cover Type (Feature Importances and Selection)
 We use the Forest Cover Type dataset to investigate feature importances and reduce the number of features without impacting accuracy thereby.
 
+### Case Study 03a -- Wine Quality (Regression)
+The dataset consists of physical and chemical properties of 6497 wines (1599 red and 4898 white) along with quality scores given to each instance by a panel of wine 
+testers (median of at least 3 evaluations). Each expert graded the wine quality between 0 (very bad) and 10 (very excellent). The objective is to predict the quality 
+score assigned to each wine by a group of experts using chemical properties of each wine as predictor variables.
+
 ### Dimension Reduction 1 -- Fashion-MNIST
 Fashion-MNIST is a dataset which contains 70000 everyday clothing items/accesories represented as a grayscale 28x28 image; hence, each instance lives in a 784 dimensional
 space. We use various dimension reduction algorithms such as PCA, NMF, t-SNE, UMAP, and Isomap in order to reduce the dimension to 2 and visualize the dataset as a scatterplot 
