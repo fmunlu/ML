@@ -17,7 +17,7 @@ We use the Forest Cover Type dataset to investigate feature importances and redu
 ### Case Study 03a -- Wine Quality (Regression)
 The dataset consists of physical and chemical properties of 6497 wines (1599 red and 4898 white) along with quality scores given to each instance by a panel of wine 
 testers (median of at least 3 evaluations). Each expert graded the wine quality between 0 (very bad) and 10 (very excellent). The objective is to predict the quality 
-score assigned to each wine by a group of experts using chemical properties of each wine as predictor variables.
+score assigned to each wine by a group of experts using chemical properties as predictor variables.
 
 ### Dimension Reduction 1 -- Fashion-MNIST
 Fashion-MNIST is a dataset which contains 70000 everyday clothing items/accesories represented as a grayscale 28x28 image; hence, each instance lives in a 784 dimensional
