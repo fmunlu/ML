@@ -19,6 +19,11 @@ The dataset consists of physical and chemical properties of 6497 wines (1599 red
 testers (median of at least 3 evaluations). Each expert graded the wine quality between 0 (very bad) and 10 (very excellent). The objective is to predict the quality 
 score assigned to each wine by a group of experts using chemical properties as predictor variables.
 
+### Case Study 04a -- Credit Card Fraud Detection (Binary Classification, Imbalanced Classes)
+The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where 
+we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. The objective is to 
+identify fraudulent credit card transactions
+
 ### Dimension Reduction 1 -- Fashion-MNIST
 Fashion-MNIST is a dataset which contains 70000 everyday clothing items/accesories represented as a grayscale 28x28 image; hence, each instance lives in a 784 dimensional
 space. We use various dimension reduction algorithms such as PCA, NMF, t-SNE, UMAP, and Isomap in order to reduce the dimension to 2 and visualize the dataset as a scatterplot 
