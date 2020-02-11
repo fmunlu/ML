@@ -22,7 +22,12 @@ score assigned to each wine by a group of experts using chemical properties as p
 ### Case Study 04a -- Credit Card Fraud Detection (Binary Classification, Imbalanced Classes)
 The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where 
 we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. The objective is to 
-identify fraudulent credit card transactions
+identify fraudulent credit card transactions. We use asymmetric weights in the loss function (misclassification of the minority class is penalized more than misclassification 
+of the majority class) to deal with the class imbalance in this notebook.
+
+### Case Study 04b -- Credit Card Fraud Detection (Binary Classification, Imbalanced Classes, Over/Undersampling)
+This is a continuation of the study of the  credit card fraud detection dataset. We use various over/undersampling methods to deal with the class imbalance problem in 
+this notebook.
 
 ### Dimension Reduction 1 -- Fashion-MNIST
 Fashion-MNIST is a dataset which contains 70000 everyday clothing items/accesories represented as a grayscale 28x28 image; hence, each instance lives in a 784 dimensional
