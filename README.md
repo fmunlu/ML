@@ -26,8 +26,13 @@ identify fraudulent credit card transactions. We use asymmetric weights in the l
 of the majority class) to deal with the class imbalance in this notebook.
 
 ### Case Study 04b -- Credit Card Fraud Detection (Binary Classification, Imbalanced Classes, Over/Undersampling)
-This is a continuation of the study of the  credit card fraud detection dataset. We use various over/undersampling methods to deal with the class imbalance problem in 
-this notebook.
+This is a continuation of the study of the  credit card fraud detection dataset. We use various over/undersampling methods (found in imbalanced-learn library) to deal with 
+the class imbalance problem in this notebook.
+
+### Case Study 04c -- Credit Card Fraud Detection (Binary Classification, Imbalanced Classes, Balanced Ensemble Methods)
+This is the third notebook dedicated to the study of the credit card fraud detection dataset. This time we use ensemble methods found in imbalanced-learn library to 
+deal with the class imbalance problem.
+
 
 ### Dimension Reduction 1 -- Fashion-MNIST
 Fashion-MNIST is a dataset which contains 70000 everyday clothing items/accesories represented as a grayscale 28x28 image; hence, each instance lives in a 784 dimensional
